@@ -1,6 +1,14 @@
 # cannabis_growers_seedbank
 Data scraping spider to collect growing data on various cannabis strains
 
+update 2021-09-15
+
+added spider to crawl https://www.cannaconnection.com/
+
+data is somewhat cleaner but still needs some manual massaging.
+
+------------------------------------------------------
+
 Scrapy spider that scrapes data from https://growdiaries.com/
 
 Spider does not perfectly scrape data due to HTML inconsistencies between strain pages, some manual data cleaning is required. Spider also only captures first 20 breeders and 20 of their respective strains because of javascript enabled scrolling page element that uncovers more breeders and strains.
